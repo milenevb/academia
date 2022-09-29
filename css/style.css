@@ -1,3 +1,44 @@
-body{
-    background-color: rgb(94, 92, 92)
-}
+/**NAVBAR*/
+ .navbar {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        top: 0.5em;
+    }
+    .navbar-nav{
+      margin-left: 55em;
+    }
+    .navbar-nav .nav-link  {
+        margin-left: 1em;/*espaço entre cada palavra do navbar*/
+        letter-spacing: 1mm;/*espaço entre cada letra do navbar*/
+    }
+    .navbar-light .navbar-nav .nav-link{
+        color: #fffbfb; /*Cor da letra do navbar*/
+        font-size: 1.2em;/* tamanho das letras do navbar*/
+    }
+    .bg-light {
+        --bs-bg-opacity: 1;
+        background-color: rgba(var(--bs-trasparent-rgb),var(--bs-bg-opacity))!important; 
+    }
+    .navbar-nav .nav-link{
+    margin-left: 0.5em;
+    color: rgb(248, 248, 248);
+    font-family: Unica One;
+    font-size: 1.3em;
+    }
+    .nav-link:hover {
+        color: #c89e1f; /**ao passar por cima das letras(navbar)*/
+    }
+
+    /**HOME*/
+    .home{
+        background-image : url('../img/fundo.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+       
+    }
+    .max-width{
+
+        margin-left: 40.3em;
+        height: 100vh;    }
