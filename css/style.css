@@ -38,7 +38,10 @@
         height: 100vh;
        
     }
-    .max-width{
-
-        margin-left: 40.3em;
-        height: 100vh;    }
+   h1{
+       color: #fffbfb;
+       font-family: Black Ops One;
+       margin-left: 20em;
+       margin-top: 5em;
+       font-weight: 10em;
+   }
