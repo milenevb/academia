@@ -1,3 +1,8 @@
+/*font 
+font-family: 'Arimo', sans-serif;
+font-family: 'Black Ops One', cursive;
+*/
+
 /**NAVBAR*/
     .logo{
        margin-left: 2em;
@@ -37,12 +42,11 @@
         height: 100vh;
        
     }
-   h1{
+    .inicio{
        color: #fffbfb;
-       font-family: Black Ops One;
+       font-family: 'Black Ops One', cursive;
        margin-left: 20em;
        margin-top: 5em;
-       font-weight: 900;   
     }
 
    .btn-warning{
@@ -60,7 +64,43 @@
     }
   
    img.img1{
-       margin-left: 40em;
-       margin-top: -24em;
-       
+       margin-top: 2.5em;
    }
+
+   img.retangulo{
+        position: absolute;
+   }
+
+   #msgconteudo{
+    font-family: 'Arimo', sans-serif;
+    margin-top: 5em;
+    font-size: 2.2em;
+    text-align: right;
+    position: absolute;
+    margin-left: 1.5em;
+    }
+
+    #msgconteudodir {
+    margin-top: 3.3em;
+    font-size: 2.2em;
+    }
+
+    #msgconteudoesq {
+    font-family: 'Arimo', sans-serif;
+    margin-top: 3.5em;
+    font-size: 2.2em;
+    text-align: right;
+    position: absolute;
+    margin-left: 5em;
+    }
+
+
+    .aulas {
+        background-color: #320F49;
+    }
+
+    /*
+    .retdir {
+        float: right;
+    }
+    */
