@@ -21,8 +21,8 @@ font-family: 'Black Ops One', cursive;
       margin-left: 55em;
     }
     .navbar-nav .nav-link  {
-        margin-left: 5em;/*espaço entre cada palavra do navbar*/
-        letter-spacing: 1mm;/*espaço entre cada letra do navbar*/
+        margin-left: 2em;/*espaço entre cada palavra do navbar*/
+        letter-spacing: 0.7mm;/*espaço entre cada letra do navbar*/
     }
     .navbar-nav .nav-link{
         margin-left: 1em;
@@ -31,7 +31,7 @@ font-family: 'Black Ops One', cursive;
         font-size: 1.2em;
     }
     .nav-link:hover {
-        color: #c89e1f; /**ao passar por cima das letras(navbar)*/
+        color: #c89e1f; /*ao passar por cima das letras(navbar)*/
     }
 
     /**HOME*/
@@ -72,12 +72,12 @@ font-family: 'Black Ops One', cursive;
    }
 
    #msgconteudo{
-    font-family: 'Arimo', sans-serif;
-    margin-top: 5em;
-    font-size: 2.2em;
-    text-align: right;
-    position: absolute;
-    margin-left: 1.5em;
+        font-family: 'Arimo', sans-serif;
+        margin-top: 5em;
+        font-size: 2.2em;
+        text-align: right;
+        position: absolute;
+        margin-left: 4.5em;
     }
 
     #msgconteudodir {
@@ -104,3 +104,44 @@ font-family: 'Black Ops One', cursive;
         float: right;
     }
     */
+
+    /*Pag nossoss planos*/
+
+    .planos{
+        background-image : url('../img/planos.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+       
+    }
+    .planos-familia{/*titulo da imagem principal*/
+        color: #fefefe;
+        font-family: 'Black Ops One', cursive;
+        margin-top: 5em;
+        margin-left: 24em;
+     }
+
+    .familia{
+        font-family: 'Black Ops One', cursive;
+        color: #320F49;
+        margin: 2em;
+        margin-left: 11em;
+        height: 40vh;
+    }
+
+    .card-title{
+        font-family: 'Black Ops One', cursive;
+        background-color: #320F49;
+        color: #fffbfb;
+        margin:0;
+    }
+    .card-text{
+        font-family: 'Black Ops One', cursive;
+    }
+
+    .card-body{
+        background-color: rgb(245, 245, 245);
+        margin: 0;
+        margin-top: -15em;
+        margin-left: 3em;
+    }
