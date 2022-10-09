@@ -5,6 +5,8 @@ font-family: 'Unica One', cursive;
 
 */
 
+/*parte inicial*/
+
 #nossosplanos{
     background-image: url('../img/planos.png');
     background-size: cover;
@@ -16,4 +18,37 @@ font-family: 'Unica One', cursive;
     font-family: 'Arimo', sans-serif;
     font-family: 'Unica One', cursive;
     padding-top: 1em;
+}
+.titplanos{
+    font-family: 'Black Ops One', cursive;
+    color: white;
+    margin-top: 3.5em;
+    font-size: 2.5em
+}
+
+/*segunda section*/
+
+#nossosplanos2{
+    height: 100vh;
+}
+
+#titpart2{
+    font-family: 'Black Ops One', cursive;
+    font-size: 2.5em;
+    color: #320F49;
+    margin-top: 1.5em;
+}
+
+.container1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+.itens{
+    margin-left: 1em;
+    margin-top: 2em;
+}
+.ret {
+    position: absolute;
 }
