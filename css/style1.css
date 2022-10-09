@@ -1,0 +1,19 @@
+/*font 
+font-family: 'Arimo', sans-serif;
+font-family: 'Black Ops One', cursive;
+font-family: 'Unica One', cursive;
+
+*/
+
+#nossosplanos{
+    background-image: url('../img/planos.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100VH;
+}
+.navbarnossosplanos{
+    font-size: 1.2em;
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Unica One', cursive;
+    padding-top: 1em;
+}

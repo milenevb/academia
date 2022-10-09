@@ -103,6 +103,8 @@ font-family: 'Black Ops One', cursive;
 
     .retdir1 {
       height: 35em;
+      z-index: 0;
+      position: relative;
       
     }
     .retdir2{
@@ -113,7 +115,14 @@ font-family: 'Black Ops One', cursive;
         color: #fefefe;
         
     }
+    .tit{
+        color: #fefefe;
+        position: absolute;
+        margin-left: 13em;
+        margin-top: 1em;
+        font-family: 'Black Ops One', cursive;
 
+    }
     /*Pag nossoss planos*/
 
     .planos{
@@ -123,6 +132,7 @@ font-family: 'Black Ops One', cursive;
         height: 100vh;
        
     }
+    
     .planos-familia{/*titulo da imagem principal*/
         color: #fefefe;
         font-family: 'Black Ops One', cursive;
