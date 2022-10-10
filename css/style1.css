@@ -1,10 +1,115 @@
 /*font 
 font-family: 'Arimo', sans-serif;
 font-family: 'Black Ops One', cursive;
-font-family: 'Unica One', cursive;
-
 */
 
+/**NAVBAR*/
+.logo{
+    margin-left:-78em;
+    width:100;
+ }
+ 
+ .navbar {
+    font-size: 1.3em;
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Unica One', cursive;
+    padding-top: 1em;
+}
+.navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+    left: 90em;
+}
+
+ /**HOME*/
+ #homee{
+    background-image: url('../img/fundo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100VH;
+}
+ 
+ .inicio{
+    color: #fffbfb;
+    font-family: 'Black Ops One', cursive;
+    margin-left: 20em;
+    margin-top: 2.5em;
+    margin-left: 23em;
+   }
+
+ .btn-warning{
+    border-radius:2em;
+    height: 3em;
+    width: 15em;
+    margin-left: 58em;
+    margin-top: 2em;
+    color:#fffbfb;
+    font-family: Unica One;
+ } 
+ .btn-warning:hover{
+     color: #320F49;
+     
+ }
+
+ img.img1{
+    margin-top: 2.5em;
+}
+
+ img.retangulo{
+     position: absolute;
+}
+
+ #msgconteudo{
+     font-family: 'Arimo', sans-serif;
+     margin-top: 5em;
+     font-size: 2.2em;
+     text-align: right;
+     position: absolute;
+     margin-left: 4.5em;
+ }
+
+ #msgconteudodir {
+    margin-top: 3.3em;
+    font-size: 2.2em;
+    }
+
+ #msgconteudoesq {
+    font-family: 'Arimo', sans-serif;
+    margin-top: 3.5em;
+    font-size: 2.2em;
+    text-align: right;
+    position: absolute;
+    margin-left: 5em;
+    }
+
+
+ .aulas {
+     background-color: #320F49;
+ 
+ }
+
+
+ .retdir1 {
+   height: 35em;
+   z-index: 0;
+   position: relative;
+   
+ }
+ .retdir2{
+     height: 32em;
+ }
+ 
+ #coletivas{
+     color: #fefefe;
+     
+ }
+ .tit{
+    color: #fefefe;
+    position: absolute;
+    margin-left: 13em;
+    margin-top: 1em;
+    font-family: 'Black Ops One', cursive;
+
+ }
 /*parte inicial*/
 
 #nossosplanos{
@@ -14,7 +119,7 @@ font-family: 'Unica One', cursive;
     height: 100VH;
 }
 .navbarnossosplanos{
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-family: 'Arimo', sans-serif;
     font-family: 'Unica One', cursive;
     padding-top: 1em;
@@ -25,7 +130,10 @@ font-family: 'Unica One', cursive;
     margin-top: 3.5em;
     font-size: 2.5em
 }
-
+.navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+    left: 90em;
+}
 /*segunda section*/
 
 #nossosplanos2{
