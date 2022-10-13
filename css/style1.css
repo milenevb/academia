@@ -157,7 +157,7 @@ font-family: 'Black Ops One', cursive;
 }
 
 img.planos{
-    width: 20em;
+    width: 19em;
 }
 
 .itens{
@@ -206,4 +206,11 @@ img.app  {
 #rodape {
     background-color: white;
     min-width: 100vh;
+}
+.controdape{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+#logorodape{
+    width: 15%;
 }
