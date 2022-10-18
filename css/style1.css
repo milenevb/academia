@@ -15,11 +15,12 @@ font-family: 'Black Ops One', cursive;
     font-family: 'Unica One', cursive;
     padding-top: 1em;
 }
+/*
 .navbar-expand-lg .navbar-nav {
     flex-direction: row;
     left: 90em;
 }
-
+*/
  /**HOME*/
  #homee{
     background-image: url('../img/fundo.png');
@@ -84,18 +85,20 @@ font-family: 'Black Ops One', cursive;
 
  .aulas {
      background-color: #320F49;
- 
  }
 
 
  .retdir1 {
-   height: 35em;
-   z-index: 0;
+   width: 30%;
+   z-index: 1;
    position: relative;
    
  }
  .retdir2{
-     height: 32em;
+    width: 40%;
+    z-index: 2;
+    position: relative;
+    margin-top: -20em;
  }
  
  #coletivas{
@@ -108,6 +111,7 @@ font-family: 'Black Ops One', cursive;
     margin-left: 13em;
     margin-top: 1em;
     font-family: 'Black Ops One', cursive;
+    z-index: 5;
 
  }
 /*parte inicial*/
@@ -131,10 +135,11 @@ font-family: 'Black Ops One', cursive;
     margin-top: 3.5em;
     font-size: 2.3em
 }
+/*
 .navbar-expand-lg .navbar-nav {
     flex-direction: row;
     left: 90em;
-}
+}*/
 /*segunda section*/
 
 #nossosplanos2{
@@ -154,6 +159,16 @@ font-family: 'Black Ops One', cursive;
     justify-content: center;
     align-items: flex-start;
     margin-bottom: 2em;
+}
+
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 2em;
+    margin-top: -22em;
+    z-index: 1000;
 }
 
 img.planos{
@@ -203,14 +218,14 @@ img.app  {
 
 /* Rodape */
 
-#rodape {
-    background-color: white;
-    min-width: 100vh;
-}
-.controdape{
-    padding-top: 2em;
-    padding-bottom: 2em;
-}
 #logorodape{
     width: 15%;
+    margin-top: 2em;
+    margin-bottom: 3em;
 }
+
+
+
+
+/*MEDIA DA PAG DE PLANOS */
+
