@@ -32,7 +32,6 @@ font-family: 'Black Ops One', cursive;
  .inicio{
     color: #fffbfb;
     font-family: 'Black Ops One', cursive;
-    margin-left: 20em;
     margin-top: 2.5em;
     margin-left: 23em;
    }
@@ -274,3 +273,24 @@ body{
 #log{
     margin-bottom: 0.5em;
 }
+
+
+
+
+
+
+/*RESPONSIVIDADE*/
+@media screen and (min-width: 480px) {
+    #homee {
+        background-image: url(../img/fundo.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100VH;
+        width: 64em;
+    }
+    .logo{
+        margin-left:-78em;
+        width:100;
+     }
+     
+  }
