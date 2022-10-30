@@ -280,17 +280,4 @@ body{
 
 
 /*RESPONSIVIDADE*/
-@media screen and (min-width: 480px) {
-    #homee {
-        background-image: url(../img/fundo.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 100VH;
-        width: 64em;
-    }
-    .logo{
-        margin-left:-78em;
-        width:100;
-     }
-     
-  }
+
