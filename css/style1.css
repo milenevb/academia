@@ -87,6 +87,10 @@ font-family: 'Black Ops One', cursive;
  }
 
 
+#titpart2{
+    margin-top: 1.5em;
+}
+
  .retdir1 {
    width: 30%;
    z-index: 1;
