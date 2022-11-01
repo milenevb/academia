@@ -301,7 +301,7 @@ body{
         margin-top: 3em;
     }
     .btn-warning{
-        margin-left:5em;
+        margin-left:6em;
         margin-top: -8em;
     }
     img.retangulo{
@@ -481,16 +481,12 @@ img.img3{
     border-radius:2em;
     height: 3em;
     width: 15em;
-    margin-top: -8em;
+    margin-top: -5em;
     color:#ffffff;
     font-family: Unica One;
-    margin-left: 15em;
-   
+    margin-left: 10em;   
  } 
- .navbar-expand-lg .navbar-collapse{
-    margin-left: 20em;
-    
- }
+
  img.retangulo{
     height: 11.5em;
 }
