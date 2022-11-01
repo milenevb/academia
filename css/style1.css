@@ -113,6 +113,10 @@ font-family: 'Black Ops One', cursive;
     z-index: 5;
 
  }
+ .navbar-expand-lg .navbar-nav{
+    flex-direction: column-reverse; 
+    left: 90em;
+ }
 /*parte inicial*/
 
 #nossosplanos{
@@ -283,16 +287,246 @@ body{
 
 /* Small devices (landscape phones, 576px and up) */
 
-@media screen and (max-width: 361px){
+@media screen and (max-width: 576px){
+    /* home */
     #homee {
         background-color: #320F49;
         background-image: none;
         height: 70vh;
     }
+    .inicio{
+        margin-left:2em;
+        margin: 4.9em;
+        height: 5em;
+        margin-top: 3em;
+    }
+    .btn-warning{
+        margin-left:5em;
+        margin-top: -8em;
+    }
+    img.retangulo{
+        height: 11.5em;
+    }
+    img.img1{
+        width:24em;
+        margin-left: 4em;
+    }
+    #msgconteudo{
+        font-size: 2em;
+        text-align: center;
+        margin-top: 10em;
+        margin-left: 3em;
+    }
+    img.img2{
+        width:26em;
+        margin-left: 3em;
+        margin-top: 7em;
+    }
+    #msgconteudodir{
+        font-size: 1.9em;
+        text-align: center;
+        margin-top:-0.2em ;
+        margin-left: 1em;
+    }
+    img.img3{
+        width:26em;
+        margin-left: 3em;
+        margin-top: 2em;
+    }
+    #msgconteudoesq{
+        font-size: 1.9em;
+        text-align: center;
+        margin-top: 12em ;
+        margin-left: 3em;
+        margin-top: 11em;
 
-
+    }
+    .aulas{
+        margin-top: 13em;
+    }
+    .tit{
+        margin-left: 4em;
+    }
+    .container2{
+      margin-top: -5em;
+    }
+    .retdir2{
+     margin-top: 2em;
+    }
+    #nossosplanos{
+        background-color: #320F49;
+        background-image: none;
+        height: 70vh;
+    }
+    /* pagina planos */
+    .titplanos{
+        font-size:2.5em;
+        margin-right:10em;
+        margin:3.5em;
+        margin-top: 3em;
+    }
 }
 
 
+@media screen and (max-width: 768px){
+ /* HOME */
 
+ #homee {
+    background-color: #320F49;
+    background-image: none;
+    height: 70vh;
+}
+.inicio{
+    color: #ffffff;
+    font-family: 'Black Ops One', cursive;
+    margin: 4em;
+    margin-left:4em;
+   }
 
+ .btn-warning{
+    border-radius:2em;
+    height: 3em;
+    width: 15em;
+    margin-top: -5em;
+    color:#ffffff;
+    font-family: Unica One;
+    margin-left: 10em;
+   
+ } 
+ img.retangulo{
+    height: 11.5em;
+}
+img.img1{
+    width:24em;
+    margin-left: 4em;
+}
+#msgconteudo{
+    font-size: 2em;
+    text-align: center;
+    margin-top: 10em;
+    margin-left: 3em;
+}
+img.img2{
+    width:26em;
+    margin-left: 3em;
+    margin-top: 7em;
+}
+#msgconteudodir{
+    font-size: 1.9em;
+    text-align: center;
+    margin-top:-0.2em ;
+    margin-left: 1em;
+}
+img.img3{
+    width:26em;
+    margin-left: 3em;
+    margin-top: 2em;
+}
+#msgconteudoesq{
+    font-size: 1.9em;
+    text-align: center;
+    margin-top: 12em ;
+    margin-left: 3em;
+    margin-top: 11em;
+
+}
+
+.aulas{
+    margin-top: 13em;
+}
+.tit{
+    margin-left: 4em;
+}
+.container2{
+  margin-top: -5em;
+}
+.retdir2{
+ margin-top: 2em;
+}
+/* pag planos */
+#nossosplanos{
+    background-color: #320F49;
+    background-image: none;
+    height: 70vh;
+}
+.container .titplanos{
+    margin-left: 2em ;
+    margin:3.5em;
+    font-size:2.5em;
+}
+.titplanos{
+    margin-left: 4em;
+}
+}
+
+@media screen and (max-width: 1024px){
+    /* HOME */
+    .logo{
+        margin-left:-80em;
+        width:120em;
+     }
+    #homee {
+        background-image: url('../img/planos.png');
+     background-image: none;
+     height: 70vh;
+   }
+   .inicio{
+    color: #ffffff;
+    font-family: 'Black Ops One', cursive;
+    margin: 5em;
+    margin-left:6em;
+   }
+
+ .btn-warning{
+    border-radius:2em;
+    height: 3em;
+    width: 15em;
+    margin-top: -8em;
+    color:#ffffff;
+    font-family: Unica One;
+    margin-left: 15em;
+   
+ } 
+ .navbar-expand-lg .navbar-collapse{
+    margin-left: 20em;
+    
+ }
+ img.retangulo{
+    height: 11.5em;
+}
+img.img1{
+    width:24em;
+    margin-left: 4em;
+}
+#msgconteudo{
+    font-size: 2em;
+    text-align: center;
+    margin-top: 10em;
+    margin-left: 3em;
+}
+img.img2{
+    width:26em;
+    margin-left: 3em;
+    margin-top: 7em;
+}
+#msgconteudodir{
+    font-size: 1.9em;
+    text-align: center;
+    margin-top:-0.2em ;
+    margin-left: 1em;
+}
+img.img3{
+    width:26em;
+    margin-left: 3em;
+    margin-top: 2em;
+}
+#msgconteudoesq{
+    font-size: 1.9em;
+    text-align: center;
+    margin-top: 12em ;
+    margin-left: 3em;
+    margin-top: 11em;
+
+}
+
+}
