@@ -281,3 +281,18 @@ body{
 
 /*RESPONSIVIDADE*/
 
+/* Small devices (landscape phones, 576px and up) */
+
+@media screen and (max-width: 361px){
+    #homee {
+        background-color: #320F49;
+        background-image: none;
+        height: 70vh;
+    }
+
+
+}
+
+
+
+
