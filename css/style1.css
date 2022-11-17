@@ -300,9 +300,9 @@ body{
     }
     .inicio{
         margin-left:2em;
-        margin: 4.9em;
+        margin: 2em;
         height: 5em;
-        margin-top: 3em;
+        margin-top: -19em;
     }
     .btn-warning{
         margin-left:6em;
@@ -391,7 +391,7 @@ body{
     border-radius:2em;
     height: 3em;
     width: 15em;
-    margin-top: -5em;
+    margin-top: -8em;
     color:#ffffff;
     font-family: Unica One;
     margin-left: 10em;
@@ -477,8 +477,8 @@ img.img3{
    .inicio{
     color: #ffffff;
     font-family: 'Black Ops One', cursive;
-    margin: 5em;
-    margin-left:6em;
+    margin: 2em;
+    margin-left:5em;
    }
 
  .btn-warning{
